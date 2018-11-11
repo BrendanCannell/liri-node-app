@@ -1,0 +1,192 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/brendan/camp/homework/liri-node-app
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: auto
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  # frameBox:
+  #   type: floating
+  #   title: Terminalizer
+  #   style:
+  #     border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  frameBox:
+    type: null
+    title: null
+    style:
+      backgroundColor: black
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 4000
+    content: "\e]7;file://Brendans-MacBook-Pro.local/Users/brendan/camp/homework/liri-node-app\a\e[?1034h$ "
+  - delay: 50
+    content: 'n'
+  - delay: 50
+    content: o
+  - delay: 50
+    content: d
+  - delay: 50
+    content: e
+  - delay: 50
+    content: ' '
+  - delay: 50
+    content: l
+  - delay: 50
+    content: i
+  - delay: 50
+    content: r
+  - delay: 50
+    content: i
+  - delay: 50
+    content: "\r\n"
+  - delay: 50
+    content: " \e[1m>\e[22m\e[0m \e[0m\e[3D\e[3C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mc\e[4D\e[4C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mco\e[5D\e[5C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mcon\e[6D\e[6C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconc\e[7D\e[7C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconce\e[8D\e[8C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcer\e[9D\e[9C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert\e[10D\e[10C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert \e[11D\e[11C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert b\e[12D\e[12C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert ba\e[13D\e[13C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert bac\e[14D\e[14C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert back\e[15D\e[15C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backs\e[16D\e[16C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backst\e[17D\e[17C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstr\e[18D\e[18C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstre\e[19D\e[19C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstree\e[20D\e[20C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstreet\e[21D\e[21C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstreet \e[22D\e[22C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstreet b\e[23D\e[23C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstreet bo\e[24D\e[24C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstreet boy\e[25D\e[25C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mconcert backstreet boys\e[26D\e[26C"
+  - delay: 500
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0m\e[36mconcert backstreet boys\e[39m\e[26D\e[26C\r\n"
+  - delay: 500
+    content: "Venue: Zappos Theater at Planet Hollywood\r\nLocation: Las Vegas, NV, United States\r\nDate: 11/14/2018\r\n-------------------------\r\nVenue: Zappos Theater at Planet Hollywood\r\nLocation: Las Vegas, NV, United States\r\nDate: 11/16/2018\r\n-------------------------\r\nVenue: Zappos Theater at Planet Hollywood\r\nLocation: Las Vegas, NV, United States\r\nDate: 11/17/2018\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/06/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/08/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/09/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/13/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/15/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/16/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/20/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/22/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 02/23/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/10/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/12/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/13/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/17/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/19/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/20/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/24/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/26/2019\r\n-------------------------\r\nVenue: Planet Hollywood Resort & Casino\t- Las Vegas\r\nLocation: Las Vegas, NV, United States\r\nDate: 04/27/2019\r\n-------------------------\r\nVenue: Altice Arena\r\nLocation: Lisbon, Portugal\r\nDate: 05/11/2019\r\n-------------------------\r\nVenue: Wizink Arena\r\nLocation: Madrid, Spain\r\nDate: 05/13/2019\r\n-------------------------\r\nVenue: Forum \r\nLocation: Milan, Italy\r\nDate: 05/15/2019\r\n-------------------------\r\nVenue: Palau San Jordi\r\nLocation: Barcelona, Spain\r\nDate: 05/17/2019\r\n-------------------------\r\nVenue: Accorhotels\r\nLocation: Paris, France\r\nDate: 05/19/2019\r\n-------------------------\r\nVenue: TUI Arena\r\nLocation: Hannover, Germany\r\nDate: 05/21/2019\r\n-------------------------\r\nVenue: Sportpalais\r\nLocation: Antwerp, Belgium\r\nDate: 05/22/2019\r\n-------------------------\r\nVenue: Ziggo Dome\r\nLocation: Amsterdam, Netherlands\r\nDate: 05/23/2019\r\n-------------------------\r\nVenue: SAP Arena\r\nLocation: Mannheim, Germany\r\nDate: 05/25/2019\r\n-------------------------\r\nVenue: Olympiahalle\r\nLocation: Munich, Germany\r\nDate: 05/27/2019\r\n-------------------------\r\nVenue: Stadhalle\r\nLocation: Vienna, Austria\r\nDate: 05/28/2019\r\n-------------------------\r\nVenue: Mercedes-Benz Arena\r\nLocation: Berlin, Germany\r\nDate: 05/29/2019\r\n-------------------------\r\nVenue: Scandinavium\r\nLocation: Gothenburg, Sweden\r\nDate: 05/31/2019\r\n-------------------------\r\nVenue: Spektrum\r\nLocation: Oslo, Norway\r\nDate: 06/01/2019\r\n-------------------------\r\nVenue: Ericsson Globe\r\nLocation: Stockholm, Sweden\r\nDate: 06/02/2019\r\n-------------------------\r\nVenue: Hartwell Arena\r\nLocation: Helsinki, Finland\r\nDate: 06/05/2019\r\n-------------------------\r\nVenue: Royal Arena\r\nLocation: Copenhagen, Denmark\r\nDate: 06/08/2019\r\n-------------------------\r\nVenue: Manchester Arena\r\nLocation: Manchester, United Kingdom\r\nDate: 06/10/2019\r\n-------------------------\r\nVenue: 3Arena\r\nLocation: Dublin, Ireland\r\nDate: 06/11/2019\r\n-------------------------\r\nVenue: Hydro Arena\r\nLocation: Glasgow, United Kingdom\r\nDate: 06/14/2019\r\n-------------------------\r\nVenue: Barclaycard Arena\r\nLocation: Birmingham, United Kingdom\r\nDate: 06/15/2019\r\n-------------------------\r\nVenue: O2 Arena\r\nLocation: London, United Kingdom\r\nDate: 06/17/2019\r\n-------------------------\r\nVenue: Lanxness Arena\r\nLocation: Cologne, Germany\r\nDate: 06/20/2019\r\n-------------------------\r\nVenue: Hallenstadion\r\nLocation: Zurich, Switzerland\r\nDate: 06/21/2019\r\r\n-------------------------\r\nVenue: O2 Arena\r\nLocation: Prague, Czech Republic\r\nDate: 06/22/2019\r\n-------------------------\r\nVenue: Torwar Arena\r\nLocation: Warsaw, Poland\r\nDate: 06/24/2019\r\n-------------------------\r\nVenue: Sports Arena\r\nLocation: Budapest, Hungary\r\nDate: 06/25/2019\r\n-------------------------\r\nVenue: Capital One Arena\r\nLocation: Washington, DC, United States\r\nDate: 07/12/2019\r\n-------------------------\r\nVenue: Bell Centre\r\nLocation: Montreal, Canada\r\nDate: 07/15/2019\r\n-------------------------\r\nVenue: ScotiaBank Arena\r\nLocation: Toronto, Canada\r\nDate: 07/17/2019\r\n-------------------------\r\nVenue: Xcel Energy Center\r\nLocation: Minneapolis, MN, United States\r\nDate: 07/20/2019\r\n-------------------------\r\nVenue: Bell MTS Place\r\nLocation: Winnipeg, Canada\r\nDate: 07/22/2019\r\n-------------------------\r\nVenue: ScotiaBank Saddledome\r\nLocation: Calgary, Canada\r\nDate: 07/24/2019\r\n-------------------------\r\nVenue: Rogers Place\r\nLocation: Edmonton, Canada\r\nDate: 07/25/2019\r\n-------------------------\r\nVenue: Pepsi Live at Rogers Arena\r\nLocation: Vancouver, Canada\r\nDate: 07/27/2019\r\n-------------------------\r\nVenue: Angel of the Winds Arena\r\nLocation: Seattle, WA, United States\r\nDate: 07/29/2019\r\n-------------------------\r\nVenue: Moda Center\r\nLocation: Portland, OR, United States\r\nDate: 07/30/2019\r\n-------------------------\r\nVenue: Golden 1 Center\r\nLocation: Sacramento, CA, United States\r\nDate: 08/01/2019\r\n-------------------------\r\nVenue: Staples Center\r\nLocation: Los Angeles, CA, United States\r\nDate: 08/03/2019\r\n-------------------------\r\nVenue: SAP Center\r\nLocation: San Jose, CA, United States\r\nDate: 08/04/2019\r\n-------------------------\r\nVenue: Honda Center\r\nLocation: Anaheim, CA, United States\r\nDate: 08/05/2019\r\n-------------------------\r\nVenue: Vivint Smart Home Arena\r\nLocation: Salt Lake City, UT, United States\r\nDate: 08/07/2019\r\n-------------------------\r\nVenue: Pepsi Center Arena\r\nLocation: Denver, CO, United States\r\nDate: 08/08/2019\r\n-------------------------\r\nVenue: United Center\r\nLocation: Chicago, IL, United States\r\nDate: 08/10/2019\r\n-------------------------\r\nVenue: Little Caesars Arena\r\nLocation: Detroit, MI, United States\r\nDate: 08/12/2019\r\n-------------------------\r\nVenue: TD Garden\r\nLocation: Boston, MA, United States\r\nDate: 08/14/2019\r\n-------------------------\r\nVenue: Barclays Center\r\nLocation: New York, NY, United States\r\nDate: 08/15/2019\r\n-------------------------\r\nVenue: Wells Fargo Center\r\nLocation: Philadelphia, PA, United States\r\nDate: 08/17/2019\r\n-------------------------\r\nVenue: Hersheypark Stadium\r\nLocation: Hershey, PA, United States\r\nDate: 08/18/2019\r\n-------------------------\r\nVenue: PNC Arena\r\nLocation: Raleigh, NC, United States\r\nDate: 08/20/2019\r\n-------------------------\r\nVenue: State Farm Arena\r\nLocation: Atlanta, GA, United States\r\nDate: 08/21/2019\r\n-------------------------\r\nVenue: BB&T Center\r\nLocation: Fort Lauderdale, FL, United States\r\nDate: 08/23/2019\r\n-------------------------\r\nVenue: Amway Center\r\nLocation: Orlando, FL, United States\r\nDate: 08/24/2019\r\n-------------------------\r\nVenue: Bridgestone Arena\r\nLocation: Nashville, TN, United States\r\nDate: 08/26/2019\r\n-------------------------\r\nVenue: FedEx Forum\r\nLocation: Memphis, TN, United States\r\nDate: 08/27/2019\r\n-------------------------\r\nVenue: BOK Center\r\nLocation: Tulsa, OK, United States\r\nDate: 08/28/2019\r\n-------------------------\r\nVenue: Smoothie King Center\r\nLocation: New Orleans, LA, United States\r\nDate: 08/30/2019\r\n-------------------------\r\nVenue: Toyota Center\r\nLocation: Houston, TX, United States\r\nDate: 08/31/2019\r\n-------------------------\r\nVenue: American Airlines Arena\r\nLocation: Dallas, TX, United States\r\nDate: 09/01/2019\r\n-------------------------\r\nVenue: Cajundome\r\nLocation: Lafayette, LA, United States\r\nDate: 09/03/2019\r\n-------------------------\r\nVenue: The Legacy Arena at the BJCC\r\nLocation: Birmingham, AL, United States\r\nDate: 09/04/2019\r\n-------------------------\r\nVenue: Enterprise Center\r\nLocation: St. Louis, MO, United States\r\nDate: 09/06/2019\r\n-------------------------\r\nVenue: Sprint Center\r\nLocation: Kansas City, MO, United States\r\nDate: 09/07/2019\r\n-------------------------\r\nVenue: CHI Health Center\r\nLocation: Omaha, NE, United States\r\nDate: 09/08/2019\r\n-------------------------\r\nVenue: Bankers Life Fieldhouse\r\nLocation: Indianapolis, IN, United States\r\nDate: 09/10/2019\r\n-------------------------\r\nVenue: Fiserv Forum\r\nLocation: Milwaukee, WI, United States\r\nDate: 09/11/2019\r\n-------------------------\r\nVenue: KFC Yum! Center\r\nLocation: Louisville, KY, United States\r\nDate: 09/13/2019\r\n-------------------------\r\nVenue: PPG Paints Arena\r\nLocation: Pittsburgh, PA, United States\r\nDate: 09/14/2019\r\n-------------------------\r\nVenue: Prudential Center\r\nLocation: Newark, NJ, United States\r\nDate: 09/15/2019\r\n \e[1m>\e[22m\e[0m \e[0m\e[3D\e[3C"

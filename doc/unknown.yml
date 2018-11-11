@@ -1,0 +1,155 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/brendan/camp/homework/liri-node-app
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 4
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: auto
+
+  frameBox:
+    type: null
+    title: null
+    style:
+      backgroundColor: black
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 4000
+    content: '$ '
+  - delay: 100
+    content: 'n'
+  - delay: 100
+    content: o
+  - delay: 100
+    content: d
+  - delay: 100
+    content: e
+  - delay: 100
+    content: ' '
+  - delay: 100
+    content: l
+  - delay: 100
+    content: i
+  - delay: 100
+    content: r
+  - delay: 100
+    content: i
+  - delay: 100
+    content: "\r\n"
+  - delay: 100
+    content: " \e[1m>\e[22m\e[0m \e[0m\e[3D\e[3C"
+  - delay: 500
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0ma\e[4D\e[4C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mab\e[5D\e[5C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabr\e[6D\e[6C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabra\e[7D\e[7C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabrac\e[8D\e[8C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabraca\e[9D\e[9C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabracad\e[10D\e[10C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabracada\e[11D\e[11C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabracadab\e[12D\e[12C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabracadabr\e[13D\e[13C"
+  - delay: 100
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mabracadabra\e[14D\e[14C"
+  - delay: 1000
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0m\r\n\e[31m>> \e[39mUsage: concert|do-what-it-says|movie|spotify ARG ...\e[1A\e[55D\e[3C"

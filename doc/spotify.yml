@@ -1,0 +1,208 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/brendan/camp/homework/liri-node-app
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: auto
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  # frameBox:
+  #   type: floating
+  #   title: Terminalizer
+  #   style:
+  #     border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  frameBox:
+    type: null
+    title: null
+    style:
+      backgroundColor: black
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 4000
+    content: "\e]7;file://Brendans-MacBook-Pro.local/Users/brendan/camp/homework/liri-node-app\a\e[?1034h$ "
+  - delay: 50
+    content: 'n'
+  - delay: 50
+    content: o
+  - delay: 50
+    content: d
+  - delay: 50
+    content: e
+  - delay: 50
+    content: ' '
+  - delay: 50
+    content: l
+  - delay: 50
+    content: i
+  - delay: 50
+    content: r
+  - delay: 50
+    content: i
+  - delay: 50
+    content: "\r\n"
+  - delay: 50
+    content: " \e[1m>\e[22m\e[0m \e[0m\e[3D\e[3C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0ms\e[4D\e[4C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0msp\e[5D\e[5C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspo\e[6D\e[6C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspot\e[7D\e[7C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspoti\e[8D\e[8C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotif\e[9D\e[9C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify\e[10D\e[10C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify \e[11D\e[11C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify n\e[12D\e[12C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify ne\e[13D\e[13C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify nev\e[14D\e[14C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify neve\e[15D\e[15C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never\e[16D\e[16C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never \e[17D\e[17C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never g\e[18D\e[18C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never go\e[19D\e[19C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gon\e[20D\e[20C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonn\e[21D\e[21C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna\e[22D\e[22C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna \e[23D\e[23C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna g\e[24D\e[24C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna gi\e[25D\e[25C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna giv\e[26D\e[26C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna give\e[27D\e[27C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna give \e[28D\e[28C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna give y\e[29D\e[29C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna give yo\e[30D\e[30C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna give you\e[31D\e[31C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna give you \e[32D\e[32C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna give you u\e[33D\e[33C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mspotify never gonna give you up\e[34D\e[34C"
+  - delay: 500
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0m\e[36mspotify never gonna give you up\e[39m\e[34D\e[34C\r\n"
+  - delay: 1000
+    content: "Track: Never Gonna Give You Up\r\nArtist(s): Rick Astley\r\nAlbum: Whenever You Need Somebody\r\nURL: https://p.scdn.co/mp3-preview/22bf10aff02db272f0a053dff5c0063d729df988?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Rick Astley\r\nAlbum: Platinum & Gold Collection\r\nURL: https://p.scdn.co/mp3-preview/50376a95e8639932167e0995debc66e6eb7a2a54?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): The Black Keys\r\nAlbum: Brothers\r\nURL: https://p.scdn.co/mp3-preview/24dd2fb4c49f97fcb78401b85fbb65b9897d4664?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never, Never Gonna Give You Up\r\nArtist(s): Cake\r\nAlbum: b-sides and rarities\r\nURL: https://p.scdn.co/mp3-preview/63c437780d5d746acd67ea732797f302ea59d9bd?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never, Never Gonna Give You Up - Remastered\r\nArtist(s): Lisa Stansfield\r\nAlbum: The Boxset Collection\r\nURL: https://p.scdn.co/mp3-preview/917cc365bb9918337fd74af6d5e2a0059f92d58e?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up - 7\" Mix\r\nArtist(s): Rick Astley\r\nAlbum: 80s 100 Hits\r\nURL: https://p.scdn.co/mp3-preview/ecbbc5e7ad43a37596200832839250004b4f711b?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Mac Beez\r\nAlbum: Never Gonna Give You Up\r\nURL: https://p.scdn.co/mp3-preview/ba58b6bbb511abf28d74789c3087622ae6873504?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Rick Astley\r\nAlbum: 80 Totally 80s Hits\r\nURL: https://p.scdn.co/mp3-preview/411cd632dc612b756d69525ee56e5805eef6eee7?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Kapena\r\nAlbum: Kapena and More!\r\nURL: https://p.scdn.co/mp3-preview/a192b45ed05b41c7995755e3cf6a722a7873cd55?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Rick Astley\r\nAlbum: Football Songs\r\nURL: https://p.scdn.co/mp3-preview/9e2c863bbd8a6757dc066e521dd029d9009c6899?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up - Joey Negro Re-Grooved Instrumental\r\nArtist(s): Patrice Rushen, Joey Negro\r\nAlbum: Never Gonna Give You Up (Joey Negro Remixes)\r\nURL: https://p.scdn.co/mp3-preview/f6ff62ae267f329a64134dcad24c598655e00679?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up - Joey Negro Re-Grooved Mix\r\nArtist(s): Patrice Rushen, Joey Negro\r\nAlbum: Never Gonna Give You Up (Joey Negro Remixes)\r\nURL: https://p.scdn.co/mp3-preview/6c03834eab4f49b0237f2ef6b89cd7eeb73545ad?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Barry White\r\nAlbum: Dead Presidents Vol. 1/Music From The Motion Picture\r\nURL: N/A\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): The Animal In Me\r\nAlbum: Never Gonna Give You Up\r\nURL: https://p.scdn.co/mp3-preview/5e9aff0727d7dc799982b16df67aa1e4d2b55765?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Hannah Trigwell\r\nAlbum: Cover Sessions, Vol. 2\r\nURL: https://p.scdn.co/mp3-preview/16a918f76c082279c5c52423b56c6ab6f032a071?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Scary Pockets, Reeve Carney\r\nAlbum: Star Funk\r\nURL: https://p.scdn.co/mp3-preview/110d2c24bb030794ea914cfd18d2aed44d752926?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Scott Bradlee's Postmodern Jukebox\r\nAlbum: Swing The Vote!\r\nURL: https://p.scdn.co/mp3-preview/dbb8edbd552e8bcfdb3ce2c758982e7bf383a3a2?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Never Gonna Give You Up\r\nArtist(s): Barry White\r\nAlbum: Just For You\r\nURL: N/A\r\n-------------------------\r\nTrack: Never, Never Gonna Give You Up\r\nArtist(s): Lisa Stansfield\r\nAlbum: Lisa Stansfield (Deluxe)\r\nURL: https://p.scdn.co/mp3-preview/15ee15d966bd4fd0e1434c4e0158f67f3f6ff4bd?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Never Gonna Give You Up\r\nArtist(s): Scary Pockets, Reeve Carney\r\nAlbum: Never Gonna Give You Up\r\nURL: https://p.scdn.co/mp3-preview/110d2c24bb030794ea914cfd18d2aed44d752926?cid=f2de07930bc6442786c0a93483d769fe\r\n \e[1m>\e[22m\e[0m \e[0m\e[3D\e[3C"

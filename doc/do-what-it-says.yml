@@ -1,0 +1,176 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/brendan/camp/homework/liri-node-app
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: auto
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  # frameBox:
+  #   type: floating
+  #   title: Terminalizer
+  #   style:
+  #     border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  frameBox:
+    type: null
+    title: null
+    style:
+      backgroundColor: black
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 4000
+    content: "\e]7;file://Brendans-MacBook-Pro.local/Users/brendan/camp/homework/liri-node-app\a\e[?1034h$ "
+  - delay: 50
+    content: 'n'
+  - delay: 50
+    content: o
+  - delay: 50
+    content: d
+  - delay: 50
+    content: e
+  - delay: 50
+    content: ' '
+  - delay: 50
+    content: l
+  - delay: 50
+    content: i
+  - delay: 50
+    content: r
+  - delay: 50
+    content: i
+  - delay: 500
+    content: "\r\n"
+  - delay: 50
+    content: " \e[1m>\e[22m\e[0m \e[0m\e[3D\e[3C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0md\e[4D\e[4C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo\e[5D\e[5C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-\e[6D\e[6C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-w\e[7D\e[7C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-wh\e[8D\e[8C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-wha\e[9D\e[9C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what\e[10D\e[10C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what-\e[11D\e[11C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what-i\e[12D\e[12C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what-it\e[13D\e[13C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what-it-\e[14D\e[14C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what-it-s\e[15D\e[15C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what-it-sa\e[16D\e[16C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what-it-say\e[17D\e[17C"
+  - delay: 50
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0mdo-what-it-says\e[18D\e[18C"
+  - delay: 500
+    content: "\e[2K\e[G \e[1m>\e[22m\e[0m \e[0m\e[36mdo-what-it-says\e[39m\e[18D\e[18C\r\n"
+  - delay: 1000
+    content: "Track: I Want It That Way\r\nArtist(s): Backstreet Boys\r\nAlbum: The Hits--Chapter One\r\nURL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Backstreet Boys\r\nAlbum: Millennium\r\nURL: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Anthem Lights\r\nAlbum: Covers Part IV\r\nURL: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Tyler and Mark\r\nAlbum: Beautiful Dreams\r\nURL: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Dynamite Boy\r\nAlbum: Punk Goes Pop\r\nURL: N/A\r\n-------------------------\r\nTrack: Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)\r\nArtist(s): \"Weird Al\" Yankovic\r\nAlbum: Poodle Hat\r\nURL: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Backstreet Boys\r\nAlbum: 90 Sweet 90s Hits!\r\nURL: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Manuel Costa\r\nAlbum: I Want It That Way\r\nURL: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Backstreet Boys\r\nAlbum: NKOTBSB\r\nURL: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Boyce Avenue\r\nAlbum: Cover Sessions, Vol. 2\r\nURL: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Bye Bye Bye / I Want It That Way (Glee Cast Version)\r\nArtist(s): Glee Cast\r\nAlbum: Bye Bye Bye / I Want It That Way (Glee Cast Version)\r\nURL: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Steel Panther\r\nAlbum: I Want It That Way\r\nURL: N/A\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Landon Austin & Julia Sheer\r\nAlbum: I Want It That Way\r\nURL: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Scary Pockets, Casey Abrams\r\nAlbum: Nu Funk\r\nURL: https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Scott Bradlee's Postmodern Jukebox, Shoshana Bean\r\nAlbum: Selfies on Kodachrome\r\nURL: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)\r\nArtist(s): \"Weird Al\" Yankovic\r\nAlbum: The Essential \"Weird Al\" Yankovic\r\nURL: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Backstreet Boys\r\nAlbum: NOW That's What I Call 90s Pop\r\nURL: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): The Cooltrane Quartet\r\nAlbum: Cocktails & Dreams\r\nURL: https://p.scdn.co/mp3-preview/d29c9d24ac633386d7b1a1fda6e49500aa84048a?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): #90s Update\r\nAlbum: #90s Update\r\nURL: https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=f2de07930bc6442786c0a93483d769fe\r\n-------------------------\r\nTrack: I Want It That Way\r\nArtist(s): Scott Bradlee's Postmodern Jukebox, Shoshana Bean\r\nAlbum: PMJ Is For Lovers: The Love Song Collection\r\nURL: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=f2de07930bc6442786c0a93483d769fe\r\n \e[1m>\e[22m\e[0m \e[0m\e[3D\e[3C"

@@ -9,7 +9,14 @@ function formatTrack({ artists, name, preview_url, album }) {
   ].join('\n')
 }
 
-module.exports = (keys, [song = "The Sign"]) =>
+module.exports = (keys, [song = "The Sign", ...rest]) =>
   new Spotify(keys.spotify)
-    .search({ type: 'track', query: song })
-    .then((res) => res.tracks.items.map(formatTrack).join('\n-------------------------\n'))
+    .search({
+      type: 'track',
+      query: [song, ...rest].join(' ')
+    })
+    .then((res) => Object({
+      ok: res.tracks.items
+        .map(formatTrack)
+        .join('\n-------------------------\n')
+    }))
